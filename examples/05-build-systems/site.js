@@ -1,7 +1,9 @@
 
 var React       = require('react'),
-    Application = require('./public/application')
+    Application = require('./app/application')
 
 window.onload = function() {
-  React.render(<Application />, document.getElementById('app'))
+  var div = document.createElement('div')
+  document.body.appendChild(div)
+  React.render(<Application />, div)
 }

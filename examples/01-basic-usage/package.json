@@ -8,6 +8,7 @@
     "dev": "./scripts/dev"
   },
   "dependencies": {
+    "ecstatic": "^0.7.1",
     "express": "4.12.3",
     "react": "0.13.1"
   },

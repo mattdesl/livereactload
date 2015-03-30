@@ -18,7 +18,7 @@ module.exports = React.createClass({
   render: function() {
     return (
       <div>
-        <h1>To-do manager</h1>
+        <h1>To-do amanaager</h1>
         <Input onAdd={this.addItem} />
         <List items={this.state.items} />
       </div>
